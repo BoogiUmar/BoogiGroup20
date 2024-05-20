@@ -1,0 +1,9 @@
+T=tf(linsys1)
+
+KD=4.7964;
+KP=37.719369;
+KI=32.077697;
+Gc=pid()
+
+Tcontrolled=feedback(T)
+
